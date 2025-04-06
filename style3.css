@@ -1,0 +1,71 @@
+body {
+      background-color: navy; /* Set the background color to navy */
+            color: white; /* Text color set for readability */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+     
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full height of the viewport */
+    
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Font style for easier readability */
+}
+
+.navbar {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the buttons */
+    background-color: #2C4C7C; /* New, deeper blue background for the navbar */
+    padding: 15px 0; /* Padding for the navbar */
+    position: fixed; /* Keep the navbar at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it appears above other content */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+}
+
+.button {
+    background: linear-gradient(180deg, #7F5C1D, #8B6A3D); /* Dark metallic gold gradient */
+    border: none; /* No border */
+    color: white; /* White text for contrast */
+    padding: 12px 25px; /* More padding for larger buttons */
+    text-align: center; /* Center text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Inline block for proper spacing */
+    margin: 0 15px; /* Margin for spacing */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Increase font size for better visibility */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+.button:hover {
+    background: linear-gradient(180deg, #8B6A3D, #BFAF70); /* Lighter gradient on hover for effect */
+    transform: translateY(-2px); /* Raise button slightly on hover */
+}
+
+.content {
+    color: white; /* White text */
+    text-align: center; /* Center text */
+    padding: 100px 20px 20px; /* Padding around text (extra space for the navbar) */
+}
+
+h1 {
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 2.5em; /* Larger font size for heading */
+}
+
+h2 {
+    margin-top: 20px; /* Space above section headings */
+    font-size: 2em; /* Larger font size for subheadings */
+}
+
+p {
+    max-width: 600px; /* Max width for paragraphs */
+    margin: 0 auto; /* Center paragraph */
+    line-height: 1.6; /* Improve readability with line height */
+}
